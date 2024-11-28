@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروفایل علی پیله فروش</title>
+    <style>
+        @font-face {
+            font-family: 'BTitr';
+            src: url('https://raw.githubusercontent.com/AliAyati1386/Font/master/BTitrBd.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'BNazanin';
+            src: url('https://raw.githubusercontent.com/AliAyati1386/Font/master/BNazanin.ttf') format('truetype');
+        }
+        body {
+            margin: 0;
+            font-family: 'BNazanin', Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0044cc; /* پس‌زمینه آبی */
+            box-shadow: 0 0 20px #0044cc, 0 0 40px #0044cc, 0 0 60px #0044cc;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'BTitr', Arial, sans-serif;
+            color: #00ff00; /* رنگ سبز */
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        }
+        header p {
+            margin: 5px 0 0;
+            color: #ffffff;
+            text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+        }
+        .circle-logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #fff;
+            margin: 20px auto;
+            box-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .circle-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* برای واکنش‌گرایی در گوشی */
+        @media (max-width: 600px) {
+            .circle-logo {
+                width: 120px;
+                height: 120px;
+            }
+            header h1 {
+                font-size: 24px;
+            }
+            header p {
+                font-size: 14px;
+            }
+        }
+
+        /* برای واکنش‌گرایی در صفحه‌های بزرگتر */
+        @media (min-width: 601px) {
+            .circle-logo {
+                width: 150px;
+                height: 150px;
+            }
+            header h1 {
+                font-size: 32px;
+            }
+            header p {
+                font-size: 16px;
+            }
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-family: 'BTitr', Arial, sans-serif;
+            color: #00aaff;
+            text-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff;
+        }
+        p {
+            font-family: 'BNazanin', Arial, sans-serif;
+        }
+        .progress-bar {
+            background-color: #333;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-bar span {
+            display: block;
+            height: 20px;
+            background-color: #00aaff;
+            width: 0;
+            animation: fill 1.5s forwards;
+            box-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff;
+        }
+        @keyframes fill {
+            from {
+                width: 0;
+            }
+            to {
+                width: var(--progress);
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1f1f1f;
+            margin-top: 20px;
+            font-size: 0.9em;
+            font-family: 'BNazanin', Arial, sans-serif;
+            color: #ffffff;
+            text-shadow: 0 0 5px #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>پروفایل علی پیله فروش</h1>
+        <p>عاشق استقلال و فوتبال</p>
+    </header>
+
+    <!-- مکان دایره‌ای برای آرم استقلال -->
+    <div class="circle-logo">
+        <!-- آرم استقلال با فرمت PNG -->
+        <img src="https://s8.uupload.ir/files/11zon_cropped_(2)_ydy5.png" alt="آرم استقلال">
+    </div>
+
+    <div class="container">
+        <section>
+            <h2>درباره من</h2>
+            <p>
+                سلام! من علی پیله فروش هستم، دانش‌آموز کلاس نهم و در حال گذراندن آخرین سال دوره اول متوسطه. از کودکی عاشق فوتبال بودم و این علاقه در طول سال‌ها فقط عمیق‌تر شده است. تیم محبوب من استقلال است و همیشه بازی‌های این تیم برای من پر از هیجان و انگیزه بوده‌اند. 
+            </p>
+            <p>
+                من تلاش می‌کنم در کنار تحصیل، به مهارت‌های فوتبالی خودم اضافه کنم و روزی بتوانم در میادین بزرگ بدرخشم. در حال حاضر، علاوه بر فوتبال، به یادگیری مهارت‌های فردی و کار گروهی هم علاقه زیادی دارم. استقلال برای من نه فقط یک تیم، بلکه یک الهام بزرگ در زندگی است.
+            </p>
+        </section>
+        <section>
+            <h2>مهارت‌های فوتبالی</h2>
+            <div class="progress-bar">
+                <span style="--progress: 90%;"></span>
+            </div>
+            <p>دریبلینگ: 90%</p>
+            <div class="progress-bar">
+                <span style="--progress: 85%;"></span>
+            </div>
+            <p>شوت‌زنی: 85%</p>
+            <div class="progress-bar">
+                <span style="--progress: 70%;"></span>
+            </div>
+            <p>پاس‌کاری: 70%</p>
+            <div class="progress-bar">
+                <span style="--progress: 95%;"></span>
+            </div>
+            <p>سرعت: 95%</p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 علی پیله فروش. تمامی حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
